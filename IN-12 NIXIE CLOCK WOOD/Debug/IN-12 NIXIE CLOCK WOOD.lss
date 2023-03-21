@@ -1,10 +1,20 @@
 
-AVRASM ver. 2.2.8  D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm Tue Mar 21 14:15:17 2023
+AVRASM ver. 2.2.8  D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm Tue Mar 21 14:23:11 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m8def.inc'
 D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(11): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m8def.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(17): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\vectors.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(19): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\macro.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(21): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(23): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\procedures.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(31): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\ini.inc'
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m8def.inc'
 D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(11): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m8def.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(17): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\vectors.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(19): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\macro.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(21): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(23): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\procedures.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(31): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\ini.inc'
                                  
                                  ;
                                  
@@ -801,10 +811,17 @@ D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main
                                  ; ***** END OF FILE ******************************************************
                                  
                                  ; Дефайны и переменные =========================================================================================================
-                                 .def temp = r16			; Временная переменная
+                                 .def temp = r16					; Временная переменная
                                  
                                  ; Таблица векторов прерываний ==================================================================================================
-                                 .org $000
+                                 .include "vectors.inc"
+                                 
+                                  * vectors.inc
+                                  *
+                                  *  Created: 21.03.2023 14:20:36
+                                  *   Author: MikhnovetsA
+                                  */ 
+                                  .org $000
 000000 c01b                      	rjmp Reset
                                  .org $001
 000001 c011                      	rjmp DS1307_SQW
@@ -825,11 +842,23 @@ D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main
                                  .org $00f
 00000f c00b                      	rjmp EE_READY
                                  .org INT_VECTORS_SIZE
-                                 
                                  ; Макросы ======================================================================================================================
+                                 .include "macro.inc"
                                  
+                                  * macro.inc
+                                  *
+                                  *  Created: 21.03.2023 14:18:59
+                                  *   Author: MikhnovetsA
+                                  */ 
                                  ; Обработчики прерываний =======================================================================================================
-                                 DS1307_SQW:	; Прерывание от импульса от микросхемы часов (раз в 1 секунду)
+                                 .include "interrupts.inc"
+                                 
+                                  * interrupts.inc
+                                  *
+                                  *  Created: 21.03.2023 14:17:43
+                                  *   Author: MikhnovetsA
+                                  */ 
+                                  DS1307_SQW:	; Прерывание от импульса от микросхемы часов (раз в 1 секунду)
                                  
 000013 9508                      ret
                                  
@@ -864,8 +893,14 @@ D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main
                                  EE_READY:
                                  
 00001b 9508                      ret
-                                 
                                  ; Процедуры ====================================================================================================================
+                                 .include "procedures.inc"
+                                 
+                                  * procedures.inc
+                                  *
+                                  *  Created: 21.03.2023 14:20:09
+                                  *   Author: MikhnovetsA
+                                  */ 
                                  
                                  .DSEG ; Область оперативной памяти ОЗУ =========================================================================================
                                  	.org SRAM_START		; Начало оперативной памяти (за всеми регистрами ввода-вывода)
@@ -873,6 +908,13 @@ D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main
                                  .CSEG ; Область флэш памяти ПЗУ ================================================================================================
                                  ; Начало программы
                                  Reset:	
+                                 	.include "ini.inc"			; Инициализация стека, перифирии и т.д.
+                                 
+                                  * ini.inc
+                                  *
+                                  *  Created: 21.03.2023 14:21:50
+                                  *   Author: MikhnovetsA
+                                  */ 
 00001c 0000                          nop
 00001d cffe                          rjmp Reset
 
