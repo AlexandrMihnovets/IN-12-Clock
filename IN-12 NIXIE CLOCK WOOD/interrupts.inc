@@ -13,7 +13,12 @@ TIMER2_COMPARE:
 ret
 
 TIMER2_OVF:
-
+	inc Razryad		; Увеличили номер рабочего разряда
+	cpi Razryad, 6	; Сравниваем. Если дошли до 6 (т.е.7), обнуляем
+	brne Next		; Если ещё не дошли до 6, продолжаем счёт
+		clr Razryad	; Сброс регистра
+	Next:
+	
 ret
 
 TIMER1_COMPA:
