@@ -14,6 +14,8 @@
 ; Дефайны и переменные =========================================================================================================
 .def temp = r16					; Временная переменная
 .def Razryad = r17				; Для переключения индикаторов (значения от 0 до 5)
+.def Razr1 = r18
+.def Razr0 = r19
 .equ T1 = 6						; Индикатор десятков часов
 .equ T2 = 7						; Индикатор единиц часов
 .equ T3 = 5						; Индикатор десятков минут
@@ -38,6 +40,39 @@
 Reset:	
 	.include "ini.inc"	; Инициализация стека, перифирии и т.д.
 
-    sei					; Разрешаю глобальные прерывания
+    //sei					; Разрешаю глобальные прерывания
+	sbi PORTC, 2
+	//sbi PORTC, 3
+	sbi PORTC, 0
 
-    rjmp Reset
+	//sbi PORTB, T1		; Включаем первый индикатор (Т1)
+	//cbi PORTB, T1
+	//sbi PORTB, T2
+	//sbi PORTD, T3
+	//sbi PORTD, T4
+	//sbi PORTD, T5
+	//sbi PORTB, T6
+
+	LOOP:
+	
+	sbi PORTB, T1
+	Delay $FF, $FF
+	cbi PORTB, T1
+	sbi PORTB, T2
+	Delay $FF, $FF
+	cbi PORTB, T2
+	sbi PORTD, T3
+	Delay $FF, $FF
+	cbi PORTD, T3
+	sbi PORTD, T4
+	Delay $FF, $FF
+	cbi PORTD, T4
+	sbi PORTD, T5
+	Delay $FF, $FF
+	cbi PORTD, T5
+	sbi PORTB, T6
+	Delay $FF, $FF
+	cbi PORTB, T6
+	
+	nop
+    rjmp LOOP

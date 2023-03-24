@@ -7,7 +7,7 @@
  .org $000
 	rjmp Reset
 .org $001
-	rjmp DS1307_SQW
+reti;	rjmp DS1307_SQW
 .org $003
 	rjmp TIMER2_COMPARE
 .org $004
