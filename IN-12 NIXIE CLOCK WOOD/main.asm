@@ -40,7 +40,7 @@
 Reset:	
 	.include "ini.inc"	; Инициализация стека, перифирии и т.д.
 
-    //sei					; Разрешаю глобальные прерывания
+    sei					; Разрешаю глобальные прерывания
 	sbi PORTC, 2
 	//sbi PORTC, 3
 	sbi PORTC, 0
@@ -54,7 +54,7 @@ Reset:
 	//sbi PORTB, T6
 
 	LOOP:
-	
+	/*
 	sbi PORTB, T1
 	Delay $FF, $FF
 	cbi PORTB, T1
@@ -73,6 +73,6 @@ Reset:
 	sbi PORTB, T6
 	Delay $FF, $FF
 	cbi PORTB, T6
-	
+	*/
 	nop
     rjmp LOOP
