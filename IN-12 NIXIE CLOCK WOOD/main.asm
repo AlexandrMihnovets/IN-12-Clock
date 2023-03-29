@@ -52,27 +52,12 @@ Reset:
 	//sbi PORTD, T4
 	//sbi PORTD, T5
 	//sbi PORTB, T6
+	clr temp
 
 	LOOP:
-	/*
-	sbi PORTB, T1
+	
+	inc temp
+	out OCR2, temp
 	Delay $FF, $FF
-	cbi PORTB, T1
-	sbi PORTB, T2
-	Delay $FF, $FF
-	cbi PORTB, T2
-	sbi PORTD, T3
-	Delay $FF, $FF
-	cbi PORTD, T3
-	sbi PORTD, T4
-	Delay $FF, $FF
-	cbi PORTD, T4
-	sbi PORTD, T5
-	Delay $FF, $FF
-	cbi PORTD, T5
-	sbi PORTB, T6
-	Delay $FF, $FF
-	cbi PORTB, T6
-	*/
-	nop
+	
     rjmp LOOP
