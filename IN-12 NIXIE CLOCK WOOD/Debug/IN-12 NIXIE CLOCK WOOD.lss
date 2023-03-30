@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm Wed Mar 29 15:08:08 2023
+AVRASM ver. 2.2.8  D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm Thu Mar 30 16:03:51 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m8def.inc'
 D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(12): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m8def.inc'
@@ -883,7 +883,6 @@ D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main
                                  TIMER2_COMPARE:		; В прерывании по совпадению Таймера 2 происходит выключение индикатора,
                                  					; соответствующего номеру в переменной Razryad. 
                                  	; switch(Razryad)
-                                 
                                  		; case(0):
 000014 3011                      			cpi Razryad, 1
 000015 f411                      			brne case_11
@@ -1063,16 +1062,8 @@ D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main
 000063 bf09                      
 000064 9478                          sei					; Разрешаю глобальные прерывания
 000065 9aaa                      	sbi PORTC, 2
-                                 	//sbi PORTC, 3
 000066 9aa8                      	sbi PORTC, 0
                                  
-                                 	//sbi PORTB, T1		; Включаем первый индикатор (Т1)
-                                 	//cbi PORTB, T1
-                                 	//sbi PORTB, T2
-                                 	//sbi PORTD, T3
-                                 	//sbi PORTD, T4
-                                 	//sbi PORTD, T5
-                                 	//sbi PORTB, T6
 000067 2700                      	clr temp
                                  
                                  	LOOP:
@@ -1086,6 +1077,14 @@ D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main
 00006e f7e8                      	Delay $FF, $FF
                                  	
 00006f cff8                          rjmp LOOP
+                                 
+                                 Numbers:
+                                 ; Массив цифр для дешифратора (не по порядку из-за дурацкой разводки)
+                                 ;	0	 1	  2	   3	4	 5	  6	   7	8	 9
+000070 0100
+000071 0504
+000072 0908
+000073 0d0c
 
 
 RESOURCE USE INFORMATION
@@ -1135,7 +1134,7 @@ Instructions used: 14 out of 110 (12.7%)
 "ATmega8" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x0000e0    206      0    206    8192   2.5%
+[.cseg] 0x000000 0x0000ea    206     10    216    8192   2.6%
 [.dseg] 0x000060 0x000060      0      0      0    1024   0.0%
 [.eseg] 0x000000 0x000000      0      0      0     512   0.0%
 

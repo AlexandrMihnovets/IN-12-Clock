@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm Wed Mar 29 15:08:08 2023
+AVRASM ver. 2.2.8  D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm Thu Mar 30 16:03:51 2023
 
 
 EQU  SIGNATURE_000 0000001e
@@ -542,4 +542,5 @@ CSEG case_3       00000039
 CSEG case_4       0000003d
 CSEG case_5       00000041
 CSEG LOOP         00000068
-CSEG R_sub@Delay@1759 0000006c
+CSEG R_sub@Delay@1750 0000006c
+CSEG Numbers      00000070

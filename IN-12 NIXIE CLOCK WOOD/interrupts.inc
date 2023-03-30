@@ -11,7 +11,6 @@ reti
 TIMER2_COMPARE:		; В прерывании по совпадению Таймера 2 происходит выключение индикатора,
 					; соответствующего номеру в переменной Razryad. 
 	; switch(Razryad)
-
 		; case(0):
 			cpi Razryad, 1
 			brne case_11

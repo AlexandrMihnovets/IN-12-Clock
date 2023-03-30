@@ -42,16 +42,8 @@ Reset:
 
     sei					; Разрешаю глобальные прерывания
 	sbi PORTC, 2
-	//sbi PORTC, 3
 	sbi PORTC, 0
 
-	//sbi PORTB, T1		; Включаем первый индикатор (Т1)
-	//cbi PORTB, T1
-	//sbi PORTB, T2
-	//sbi PORTD, T3
-	//sbi PORTD, T4
-	//sbi PORTD, T5
-	//sbi PORTB, T6
 	clr temp
 
 	LOOP:
@@ -61,3 +53,8 @@ Reset:
 	Delay $FF, $FF
 	
     rjmp LOOP
+
+Numbers:
+; Массив цифр для дешифратора (не по порядку из-за дурацкой разводки)
+;	0	 1	  2	   3	4	 5	  6	   7	8	 9
+.db $00, $01, $04, $05, $08, $09, $0C, $0D, $02, $03
