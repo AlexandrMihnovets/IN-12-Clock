@@ -12,10 +12,13 @@
 .include "m8def.inc"
 
 ; Дефайны и переменные =========================================================================================================
-.def temp = r16					; Временная переменная
+.def SECONDS = r1				; Десятки и единицы секунд в BCD-формате
+.def MINUTES = r2				; Десятки и единицы минут в BCD-формате
+.def HOURS	 = r3				; Десятки и единицы часов в BCD-формате
+.def temp	 = r16				; Временная переменная
 .def Razryad = r17				; Для переключения индикаторов (значения от 0 до 5)
-.def Razr1 = r18
-.def Razr0 = r19
+.def Razr1	 = r18
+.def Razr0	 = r19
 .equ T1 = 6						; Индикатор десятков часов
 .equ T2 = 7						; Индикатор единиц часов
 .equ T3 = 5						; Индикатор десятков минут
@@ -39,18 +42,77 @@
 ; Начало программы
 Reset:	
 	.include "ini.inc"	; Инициализация стека, перифирии и т.д.
-
-    sei					; Разрешаю глобальные прерывания
-	sbi PORTC, 2
-	sbi PORTC, 0
-
-	clr temp
-
-	LOOP:
 	
-	inc temp
-	out OCR2, temp
-	Delay $FF, $FF
+	;sbi PORTC, 2
+	;sbi PORTC, 0
+
+	ldi ZL, low(Numbers*2)
+	ldi ZH, high(Numbers*2)
+
+	;lpm temp, Z+
+	;out PORTC, temp
+
+	ldi temp, $14
+	mov HOURS, temp
+	ldi temp, $58
+	mov MINUTES, temp
+	ldi temp, $9c
+	mov SECONDS, temp
+
+
+	;inc r1
+	;inc r1
+	
+    sei					; Разрешаю глобальные прерывания
+
+	LOOP:				; Основной цикл программы
+	
+		Switch_loop:
+				cpi Razryad, 1
+				brne Ind_2
+				mov temp, HOURS
+				swap temp
+				andi temp, $0F
+				out PORTC, temp
+
+			Ind_2:
+				cpi Razryad, 2
+				brne Ind_3
+				mov temp, HOURS
+				andi temp, $0F
+				out PORTC, temp
+
+			Ind_3:
+				cpi Razryad, 3
+				brne Ind_4
+				mov temp, MINUTES
+				swap temp
+				andi temp, $0F
+				out PORTC, temp
+
+			Ind_4:
+				cpi Razryad, 4
+				brne Ind_5
+				mov temp, MINUTES
+				andi temp, $0F
+				out PORTC, temp
+
+			Ind_5:
+				cpi Razryad, 5
+				brne Ind_6
+				mov temp, SECONDS
+				swap temp
+				andi temp, $0F
+				out PORTC, temp
+
+			Ind_6:
+				cpi Razryad, 6
+				brne End_switch_loop
+				mov temp, SECONDS
+				andi temp, $0F
+				out PORTC, temp
+
+		End_switch_loop:
 	
     rjmp LOOP
 

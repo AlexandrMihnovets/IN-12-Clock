@@ -1,20 +1,20 @@
 
-AVRASM ver. 2.2.8  D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm Thu Mar 30 16:03:51 2023
+AVRASM ver. 2.2.8  D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm Mon Apr 03 15:24:35 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m8def.inc'
 D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(12): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m8def.inc'
-D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(27): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\vectors.inc'
-D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(29): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\macro.inc'
-D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(31): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc'
-D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(33): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\procedures.inc'
-D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(41): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\ini.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(30): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\vectors.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(32): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\macro.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(34): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(36): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\procedures.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(44): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\ini.inc'
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m8def.inc'
 D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(12): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m8def.inc'
-D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(27): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\vectors.inc'
-D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(29): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\macro.inc'
-D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(31): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc'
-D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(33): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\procedures.inc'
-D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(41): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\ini.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(30): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\vectors.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(32): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\macro.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(34): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(36): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\procedures.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(44): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\ini.inc'
                                  
                                  ;
                                  
@@ -812,10 +812,13 @@ D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main
                                  ; ***** END OF FILE ******************************************************
                                  
                                  ; Дефайны и переменные =========================================================================================================
-                                 .def temp = r16					; Временная переменная
+                                 .def SECONDS = r1				; Десятки и единицы секунд в BCD-формате
+                                 .def MINUTES = r2				; Десятки и единицы минут в BCD-формате
+                                 .def HOURS	 = r3				; Десятки и единицы часов в BCD-формате
+                                 .def temp	 = r16				; Временная переменная
                                  .def Razryad = r17				; Для переключения индикаторов (значения от 0 до 5)
-                                 .def Razr1 = r18
-                                 .def Razr0 = r19
+                                 .def Razr1	 = r18
+                                 .def Razr0	 = r19
                                  .equ T1 = 6						; Индикатор десятков часов
                                  .equ T2 = 7						; Индикатор единиц часов
                                  .equ T3 = 5						; Индикатор десятков минут
@@ -1055,36 +1058,91 @@ D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main
 00005e 2700                       clr temp
 00005f bd04                       out TCNT2, temp	; Сброс счётного регистра
                                  
-000060 e200                       ldi temp, 32
+000060 ef0f                       ldi temp, 255
 000061 bd03                       out OCR2, temp		; Установка регистра совпадения (максимальная яркость индикаторов)
                                  
 000062 ec00                       ldi temp, (1<<OCIE2) | (1<<TOIE2)	; Разрешение прерываний по совпадению и по переполнению Таймера2
-000063 bf09                      
-000064 9478                          sei					; Разрешаю глобальные прерывания
-000065 9aaa                      	sbi PORTC, 2
-000066 9aa8                      	sbi PORTC, 0
+000063 bf09                      	
+                                 	;sbi PORTC, 2
+                                 	;sbi PORTC, 0
                                  
-000067 2700                      	clr temp
+000064 e1ee                      	ldi ZL, low(Numbers*2)
+000065 e0f1                      	ldi ZH, high(Numbers*2)
                                  
-                                 	LOOP:
+                                 	;lpm temp, Z+
+                                 	;out PORTC, temp
+                                 
+000066 e104                      	ldi temp, $14
+000067 2e30                      	mov HOURS, temp
+000068 e508                      	ldi temp, $58
+000069 2e20                      	mov MINUTES, temp
+00006a e90c                      	ldi temp, $9c
+00006b 2e10                      	mov SECONDS, temp
+                                 
+                                 
+                                 	;inc r1
+                                 	;inc r1
                                  	
-000068 9503                      	inc temp
-000069 bd03                      	out OCR2, temp
-00006a ef2f
-00006b ef3f
-00006c 5031
-00006d 4020
-00006e f7e8                      	Delay $FF, $FF
+00006c 9478                          sei					; Разрешаю глобальные прерывания
+                                 
+                                 	LOOP:				; Основной цикл программы
                                  	
-00006f cff8                          rjmp LOOP
+                                 		Switch_loop:
+00006d 3011                      				cpi Razryad, 1
+00006e f421                      				brne Ind_2
+00006f 2d03                      				mov temp, HOURS
+000070 9502                      				swap temp
+000071 700f                      				andi temp, $0F
+000072 bb05                      				out PORTC, temp
+                                 
+                                 			Ind_2:
+000073 3012                      				cpi Razryad, 2
+000074 f419                      				brne Ind_3
+000075 2d03                      				mov temp, HOURS
+000076 700f                      				andi temp, $0F
+000077 bb05                      				out PORTC, temp
+                                 
+                                 			Ind_3:
+000078 3013                      				cpi Razryad, 3
+000079 f421                      				brne Ind_4
+00007a 2d02                      				mov temp, MINUTES
+00007b 9502                      				swap temp
+00007c 700f                      				andi temp, $0F
+00007d bb05                      				out PORTC, temp
+                                 
+                                 			Ind_4:
+00007e 3014                      				cpi Razryad, 4
+00007f f419                      				brne Ind_5
+000080 2d02                      				mov temp, MINUTES
+000081 700f                      				andi temp, $0F
+000082 bb05                      				out PORTC, temp
+                                 
+                                 			Ind_5:
+000083 3015                      				cpi Razryad, 5
+000084 f421                      				brne Ind_6
+000085 2d01                      				mov temp, SECONDS
+000086 9502                      				swap temp
+000087 700f                      				andi temp, $0F
+000088 bb05                      				out PORTC, temp
+                                 
+                                 			Ind_6:
+000089 3016                      				cpi Razryad, 6
+00008a f419                      				brne End_switch_loop
+00008b 2d01                      				mov temp, SECONDS
+00008c 700f                      				andi temp, $0F
+00008d bb05                      				out PORTC, temp
+                                 
+                                 		End_switch_loop:
+                                 	
+00008e cfde                          rjmp LOOP
                                  
                                  Numbers:
                                  ; Массив цифр для дешифратора (не по порядку из-за дурацкой разводки)
                                  ;	0	 1	  2	   3	4	 5	  6	   7	8	 9
-000070 0100
-000071 0504
-000072 0908
-000073 0d0c
+00008f 0100
+000090 0504
+000091 0908
+000092 0d0c
 
 
 RESOURCE USE INFORMATION
@@ -1102,39 +1160,39 @@ counted separately from r26..r31 here.
 .dseg memory usage only counts static data declared with .byte
 
 "ATmega8" register use summary:
-x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
+x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   3 r2 :   3 r3 :   3 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16:  27 r17:  14 r18:   2 r19:   2 r20:   0 
+r13:   0 r14:   0 r15:   0 r16:  51 r17:  20 r18:   0 r19:   0 r20:   0 
 r21:   0 r22:   0 r23:   0 r24:   0 r25:   0 r26:   0 r27:   0 r28:   0 
-r29:   0 r30:   0 r31:   0 
-Registers used: 4 out of 35 (11.4%)
+r29:   0 r30:   1 r31:   1 
+Registers used: 7 out of 35 (20.0%)
 
 "ATmega8" instruction use summary:
 .lds  :   0 .sts  :   0 adc   :   0 add   :   0 adiw  :   0 and   :   0 
-andi  :   0 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
-brcc  :   1 brcs  :   0 breq  :   0 brge  :   0 brhc  :   0 brhs  :   0 
-brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 brne  :  12 
+andi  :   6 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
+brcc  :   0 brcs  :   0 breq  :   0 brge  :   0 brhc  :   0 brhs  :   0 
+brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 brne  :  18 
 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 brvs  :   0 
 bset  :   0 bst   :   0 cbi   :   6 cbr   :   0 clc   :   0 clh   :   0 
-cli   :   0 cln   :   0 clr   :   3 cls   :   0 clt   :   0 clv   :   0 
-clz   :   0 com   :   0 cp    :   0 cpc   :   0 cpi   :  12 cpse  :   0 
+cli   :   0 cln   :   0 clr   :   2 cls   :   0 clt   :   0 clv   :   0 
+clz   :   0 com   :   0 cp    :   0 cpc   :   0 cpi   :  18 cpse  :   0 
 dec   :   0 eor   :   0 fmul  :   0 fmuls :   0 fmulsu:   0 icall :   0 
-ijmp  :   0 in    :   0 inc   :   2 ld    :   0 ldd   :   0 ldi   :  13 
-lds   :   0 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   0 movw  :   0 
+ijmp  :   0 in    :   0 inc   :   1 ld    :   0 ldd   :   0 ldi   :  16 
+lds   :   0 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   9 movw  :   0 
 mul   :   0 muls  :   0 mulsu :   0 neg   :   0 nop   :   0 or    :   0 
-ori   :   0 out   :  13 pop   :   0 push  :   0 rcall :   0 ret   :   0 
-reti  :  10 rjmp  :  20 rol   :   0 ror   :   0 sbc   :   0 sbci  :   1 
-sbi   :   8 sbic  :   0 sbis  :   0 sbiw  :   0 sbr   :   0 sbrc  :   0 
+ori   :   0 out   :  18 pop   :   0 push  :   0 rcall :   0 ret   :   0 
+reti  :  10 rjmp  :  20 rol   :   0 ror   :   0 sbc   :   0 sbci  :   0 
+sbi   :   6 sbic  :   0 sbis  :   0 sbiw  :   0 sbr   :   0 sbrc  :   0 
 sbrs  :   0 sec   :   0 seh   :   0 sei   :   1 sen   :   0 ser   :   0 
 ses   :   0 set   :   0 sev   :   0 sez   :   0 sleep :   0 spm   :   0 
-st    :   0 std   :   0 sts   :   0 sub   :   0 subi  :   1 swap  :   0 
+st    :   0 std   :   0 sts   :   0 sub   :   0 subi  :   0 swap  :   3 
 tst   :   0 wdr   :   0 
 Instructions used: 14 out of 110 (12.7%)
 
 "ATmega8" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x0000ea    206     10    216    8192   2.6%
+[.cseg] 0x000000 0x000128    268     10    278    8192   3.4%
 [.dseg] 0x000060 0x000060      0      0      0    1024   0.0%
 [.eseg] 0x000000 0x000000      0      0      0     512   0.0%
 
