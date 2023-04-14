@@ -68,12 +68,12 @@ Reset:
 	LOOP:				; Основной цикл программы
 	
 		Switch_loop:
-				cpi Razryad, 1
+				cpi Razryad, 1	; Если работает первый индикатор,
 				brne Ind_2
-				mov temp, HOURS
-				swap temp
-				andi temp, $0F
-				out PORTC, temp
+				mov temp, HOURS	; достаю значение часов	
+				swap temp		; переворачиваю, т.к. мне нужны биты 3-0
+				andi temp, $0F	; ненужные биты обнуляю
+				out PORTC, temp	; устанавливаю необходимое значение на дешифратор
 
 			Ind_2:
 				cpi Razryad, 2
