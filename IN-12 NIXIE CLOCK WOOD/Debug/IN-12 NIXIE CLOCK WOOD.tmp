@@ -27,15 +27,15 @@
   <FILE>IN-12 NIXIE CLOCK WOOD.lss</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <Reset><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm</FILE><LINE>43</LINE></Reset>
+  <Reset><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm</FILE><LINE>55</LINE></Reset>
   <TIMER2_COMPARE><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc</FILE><LINE>12</LINE></TIMER2_COMPARE>
   <TIMER2_OVF><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc</FILE><LINE>56</LINE></TIMER2_OVF>
   <TIMER1_COMPA><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc</FILE><LINE>102</LINE></TIMER1_COMPA>
-  <TIMER1_COMPB><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc</FILE><LINE>106</LINE></TIMER1_COMPB>
-  <TIMER1_OVF><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc</FILE><LINE>110</LINE></TIMER1_OVF>
-  <TIMER0_OVF><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc</FILE><LINE>114</LINE></TIMER0_OVF>
-  <ADC_READY><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc</FILE><LINE>118</LINE></ADC_READY>
-  <EE_READY><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc</FILE><LINE>122</LINE></EE_READY>
+  <TIMER1_COMPB><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc</FILE><LINE>135</LINE></TIMER1_COMPB>
+  <TIMER1_OVF><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc</FILE><LINE>139</LINE></TIMER1_OVF>
+  <TIMER0_OVF><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc</FILE><LINE>143</LINE></TIMER0_OVF>
+  <ADC_READY><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc</FILE><LINE>147</LINE></ADC_READY>
+  <EE_READY><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc</FILE><LINE>151</LINE></EE_READY>
   <DS1307_SQW><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc</FILE><LINE>7</LINE></DS1307_SQW>
   <case_11><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc</FILE><LINE>21</LINE></case_11>
   <End_switch_2><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc</FILE><LINE>52</LINE></End_switch_2>
@@ -51,14 +51,16 @@
   <case_3><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc</FILE><LINE>79</LINE></case_3>
   <case_4><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc</FILE><LINE>85</LINE></case_4>
   <case_5><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc</FILE><LINE>91</LINE></case_5>
-  <Numbers><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm</FILE><LINE>119</LINE></Numbers>
-  <LOOP><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm</FILE><LINE>68</LINE></LOOP>
-  <Switch_loop><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm</FILE><LINE>70</LINE></Switch_loop>
-  <Ind_2><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm</FILE><LINE>78</LINE></Ind_2>
-  <Ind_3><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm</FILE><LINE>85</LINE></Ind_3>
-  <Ind_4><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm</FILE><LINE>93</LINE></Ind_4>
-  <Ind_5><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm</FILE><LINE>100</LINE></Ind_5>
-  <Ind_6><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm</FILE><LINE>108</LINE></Ind_6>
-  <End_switch_loop><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm</FILE><LINE>115</LINE></End_switch_loop>
+  <Texit><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc</FILE><LINE>132</LINE></Texit>
+  <mhh><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc</FILE><LINE>127</LINE></mhh>
+  <Numbers><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm</FILE><LINE>49</LINE></Numbers>
+  <LOOP><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm</FILE><LINE>80</LINE></LOOP>
+  <Switch_loop><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm</FILE><LINE>85</LINE></Switch_loop>
+  <Ind_2><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm</FILE><LINE>92</LINE></Ind_2>
+  <Ind_3><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm</FILE><LINE>99</LINE></Ind_3>
+  <Ind_4><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm</FILE><LINE>106</LINE></Ind_4>
+  <Ind_5><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm</FILE><LINE>113</LINE></Ind_5>
+  <Ind_6><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm</FILE><LINE>120</LINE></Ind_6>
+  <End_switch_loop><FILE>D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm</FILE><LINE>127</LINE></End_switch_loop>
  </LABELS>
 </ASSEMBLER_INFO>

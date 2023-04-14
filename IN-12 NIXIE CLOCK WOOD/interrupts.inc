@@ -100,7 +100,36 @@ TIMER2_OVF:			; При переполнении Таймера 2 происходит включение индикатора, соот
 reti
 ; ==========================================================================================================
 TIMER1_COMPA:
-	inc SECONDS
+	inc eSec
+	cpi eSec, 10
+	brne Texit
+	clr eSec
+	inc dSec
+	cpi dSec, 6
+	brne Texit
+	clr dSec
+	inc eMin
+	cpi eMin, 10
+	brne Texit
+	clr eMin
+	inc dMin
+	cpi dMin, 6
+	brne Texit
+	clr dMin
+	inc eHour
+	cpi eHour, 4
+	brlo Texit
+	cpi dHour, 2
+	brne mhh
+	clr eHour
+	clr dHour
+	rjmp Texit
+	mhh:
+	cpi eHour, 10
+	brne Texit
+	clr eHour
+	inc dHour
+	Texit:
 reti
 
 TIMER1_COMPB:
