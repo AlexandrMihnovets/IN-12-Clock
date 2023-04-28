@@ -12,19 +12,12 @@
 .include "m8def.inc"
 
 ; Дефайны и переменные =========================================================================================================
-.def SECONDS = r1				; Десятки и единицы секунд в BCD-формате
-.def MINUTES = r2				; Десятки и единицы минут в BCD-формате
-.def HOURS	 = r3				; Десятки и единицы часов в BCD-формате
-.def temp	 = r16				; Временная переменная
-.def Razryad = r17				; Для переключения индикаторов (значения от 0 до 5)
-;.def Razr1	 = r18
-;.def Razr0	 = r19
-.def eSec	= r18
-.def dSec	= r19
-.def eMin	= r20
-.def dMin	= r21
-.def eHour	= r22
-.def dHour	= r23
+.def temp			= r16		; Временная переменная 1
+.def temp1			= r17		; Временная переменная 2
+.def Razryad		= r19		; Для переключения индикаторов (значения от 0 до 5)
+.def Sec_counter	= r22		; Счётчик секунд
+.def Min_counter	= r23		; Счётчик минут
+.def Hour_counter	= r24		; Счётчик часов
 .equ T1 = 6						; Индикатор десятков часов
 .equ T2 = 7						; Индикатор единиц часов
 .equ T3 = 5						; Индикатор десятков минут
@@ -42,7 +35,17 @@
 .include "procedures.inc"
 
 .DSEG ; Область оперативной памяти ОЗУ =========================================================================================
-	.org SRAM_START		; Начало оперативной памяти (за всеми регистрами ввода-вывода)
+				.org SRAM_START		; Начало оперативной памяти (за всеми регистрами ввода-вывода)
+	; Резервирование памяти для распакованных и упакованных значений времени
+	Sec_l_BCD:	.byte	1			; Единицы секунд (low BCD)
+	Sec_h_BCD:	.byte	1			; Десятки секунд (high BCD)
+	Sec_pac:	.byte	1			; Секунды в упауованном BCD формате
+	Min_l_BCD:	.byte	1			; Единицы минут (low BCD)
+	Min_h_BCD:	.byte	1			; Десятки минут	(high BCD)
+	Min_pac:	.byte	1			; Минуты в упакованном BCD формате
+	Hour_l_BCD:	.byte	1			; Единицы часов (low BCD)
+	Hour_h_BCD:	.byte	1			; Десятки часов (high BCD)
+	Hour_pac:	.byte	1			; Часы в упакованном BCD формате
 
 .CSEG ; Область флэш памяти ПЗУ ================================================================================================
 
@@ -52,79 +55,36 @@ Numbers:
 .db $00, $01, $04, $05, $08, $09, $0C, $0D, $02, $03
 
 ; Начало программы
-Reset:	
+Reset:
+	
+	.include "flush.inc"; Очистка памяти от мусора
 	.include "ini.inc"	; Инициализация стека, перифирии и т.д.
+
+	; Установка времени (временная)
 	
-	;sbi PORTC, 2
-	;sbi PORTC, 0
+	ldi Min_counter, 56
+	mov temp, Min_counter
+	rcall bin2bcd8				; На выходе в temp1 десятки, в temp единицы минут
+	ldi YL, low(Min_l_BCD)		; Адрес единиц минут в ОЗУ
+	st Y+, temp					; Сохраняем единицы минут в ОЗУ
+	st Y, temp1					; Сохраняем десятки минут в ОЗУ
+
+	clr temp1
+	
+	ldi Hour_counter, 13
+	mov temp, Hour_counter		; Значение часов в temp
+	rcall bin2bcd8				; На выходе в temp1 десятки, в temp единицы часов
+	ldi YL, low(Hour_l_BCD)		; Адрес единиц часов в ОЗУ
+	st Y+, temp					; Сохраняем единицы часов в ОЗУ
+	st Y, temp1					; Сохраняем десятки часов в ОЗУ
+
 
 	
-	;lpm temp, Z+
-	;out PORTC, temp
-	/*
-	ldi temp, 0;$14
-	mov HOURS, temp
-	ldi temp, 0;$58
-	mov MINUTES, temp
-	ldi temp, 0;$9c
-	mov SECONDS, temp
-	*/
+    sei						; Разрешаю глобальные прерывания
 
-	clr temp
+	LOOP:					; Основной цикл программы
 
-	;inc r1
-	;inc r1
-	
-    sei					; Разрешаю глобальные прерывания
-
-	LOOP:				; Основной цикл программы
-
-	ldi ZL, low(Numbers*2)
-	ldi ZH, high(Numbers*2)
-	
-		Switch_loop:
-				cpi Razryad, 1	; Если работает первый индикатор,
-				brne Ind_2
-				add ZL, dHour
-				lpm temp, Z
-				out PORTC, temp	; устанавливаю необходимое значение на дешифратор
-
-			Ind_2:
-				cpi Razryad, 2
-				brne Ind_3
-				add ZL, eHour
-				lpm temp, Z
-				out PORTC, temp
-
-			Ind_3:
-				cpi Razryad, 3
-				brne Ind_4
-				add ZL, dMin
-				lpm temp, Z
-				out PORTC, temp
-
-			Ind_4:
-				cpi Razryad, 4
-				brne Ind_5
-				add ZL, eMin
-				lpm temp, Z
-				out PORTC, temp
-
-			Ind_5:
-				cpi Razryad, 5
-				brne Ind_6
-				add ZL, dSec
-				lpm temp, Z
-				out PORTC, temp
-
-			Ind_6:
-				cpi Razryad, 6
-				brne End_switch_loop
-				add ZL, eSec
-				lpm temp, Z
-				out PORTC, temp
-
-		End_switch_loop:
+		
 	
     rjmp LOOP
 

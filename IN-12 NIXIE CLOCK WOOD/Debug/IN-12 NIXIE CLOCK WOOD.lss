@@ -1,20 +1,22 @@
 
-AVRASM ver. 2.2.8  D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm Fri Apr 14 15:16:53 2023
+AVRASM ver. 2.2.8  D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm Fri Apr 28 13:56:52 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m8def.inc'
 D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(12): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m8def.inc'
-D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(36): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\vectors.inc'
-D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(38): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\macro.inc'
-D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(40): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc'
-D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(42): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\procedures.inc'
-D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(56): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\ini.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(29): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\vectors.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(31): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\macro.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(33): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(35): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\procedures.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(60): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\flush.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(61): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\ini.inc'
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m8def.inc'
 D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(12): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m8def.inc'
-D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(36): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\vectors.inc'
-D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(38): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\macro.inc'
-D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(40): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc'
-D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(42): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\procedures.inc'
-D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(56): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\ini.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(29): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\vectors.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(31): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\macro.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(33): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\interrupts.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(35): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\procedures.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(60): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\flush.inc'
+D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main.asm(61): Including file 'D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\ini.inc'
                                  
                                  ;
                                  
@@ -812,19 +814,12 @@ D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main
                                  ; ***** END OF FILE ******************************************************
                                  
                                  ; Дефайны и переменные =========================================================================================================
-                                 .def SECONDS = r1				; Десятки и единицы секунд в BCD-формате
-                                 .def MINUTES = r2				; Десятки и единицы минут в BCD-формате
-                                 .def HOURS	 = r3				; Десятки и единицы часов в BCD-формате
-                                 .def temp	 = r16				; Временная переменная
-                                 .def Razryad = r17				; Для переключения индикаторов (значения от 0 до 5)
-                                 ;.def Razr1	 = r18
-                                 ;.def Razr0	 = r19
-                                 .def eSec	= r18
-                                 .def dSec	= r19
-                                 .def eMin	= r20
-                                 .def dMin	= r21
-                                 .def eHour	= r22
-                                 .def dHour	= r23
+                                 .def temp			= r16		; Временная переменная 1
+                                 .def temp1			= r17		; Временная переменная 2
+                                 .def Razryad		= r19		; Для переключения индикаторов (значения от 0 до 5)
+                                 .def Sec_counter	= r22		; Счётчик секунд
+                                 .def Min_counter	= r23		; Счётчик минут
+                                 .def Hour_counter	= r24		; Счётчик часов
                                  .equ T1 = 6						; Индикатор десятков часов
                                  .equ T2 = 7						; Индикатор единиц часов
                                  .equ T3 = 5						; Индикатор десятков минут
@@ -841,25 +836,25 @@ D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main
                                   *   Author: MikhnovetsA
                                   */ 
                                   .org $000
-000000 c06c                      	rjmp Reset
+000000 c08f                      	rjmp Reset
                                  .org $001
 000001 9518                      reti;	rjmp DS1307_SQW
                                  .org $003
 000003 c010                      	rjmp TIMER2_COMPARE
                                  .org $004
-000004 c028                      	rjmp TIMER2_OVF
+000004 c02a                      	rjmp TIMER2_OVF
                                  .org $006 
-000006 c03f                      	rjmp TIMER1_COMPA
+000006 c055                      	rjmp TIMER1_COMPA
                                  .org $007
-000007 c05b                      	rjmp TIMER1_COMPB
+000007 c06d                      	rjmp TIMER1_COMPB
                                  .org $008 
-000008 c05b                      	rjmp TIMER1_OVF
+000008 c06d                      	rjmp TIMER1_OVF
                                  .org $009 
-000009 c05b                      	rjmp TIMER0_OVF
+000009 c06d                      	rjmp TIMER0_OVF
                                  .org $00e
-00000e c057                      	rjmp ADC_READY
+00000e c069                      	rjmp ADC_READY
                                  .org $00f
-00000f c057                      	rjmp EE_READY
+00000f c069                      	rjmp EE_READY
                                  .org INT_VECTORS_SIZE
                                  ; Макросы ======================================================================================================================
                                  .include "macro.inc"
@@ -897,144 +892,164 @@ D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main
                                  					; соответствующего номеру в переменной Razryad. 
                                  	; switch(Razryad)
                                  		; case(0):
-000014 3011                      			cpi Razryad, 1
-000015 f411                      			brne case_11
-000016 98c6                      			cbi PORTB, T1
-000017 c014                      			rjmp End_switch_2
+000014 3030                      			cpi Razryad, 0		; При первом прерывании тут делать нечего, пока ни один индаикатор не горит
+000015 f0c1                      			breq End_switch_2	; так что на выход
+000016 3031                      			cpi Razryad, 1
+000017 f411                      			brne case_11
+000018 98c6                      			cbi PORTB, T1
+000019 c014                      			rjmp End_switch_2
                                  
                                  		case_11:
-000018 3012                      			cpi Razryad, 2
-000019 f411                      			brne case_21
-00001a 98c7                      			cbi PORTB, T2
-00001b c010                      			rjmp End_switch_2
+00001a 3032                      			cpi Razryad, 2
+00001b f411                      			brne case_21
+00001c 98c7                      			cbi PORTB, T2
+00001d c010                      			rjmp End_switch_2
                                  
                                  		case_21:
-00001c 3013                      			cpi Razryad, 3
-00001d f411                      			brne case_31
-00001e 9895                      			cbi PORTD, T3
-00001f c00c                      			rjmp End_switch_2
+00001e 3033                      			cpi Razryad, 3
+00001f f411                      			brne case_31
+000020 9895                      			cbi PORTD, T3
+000021 c00c                      			rjmp End_switch_2
                                  
                                  		case_31:
-000020 3014                      			cpi Razryad, 4
-000021 f411                      			brne case_41
-000022 9896                      			cbi PORTD, T4
-000023 c008                      			rjmp End_switch_2
+000022 3034                      			cpi Razryad, 4
+000023 f411                      			brne case_41
+000024 9896                      			cbi PORTD, T4
+000025 c008                      			rjmp End_switch_2
                                  
                                  		case_41:
-000024 3015                      			cpi Razryad, 5
-000025 f411                      			brne case_51
-000026 9897                      			cbi PORTD, T5
-000027 c004                      			rjmp End_switch_2
+000026 3035                      			cpi Razryad, 5
+000027 f411                      			brne case_51
+000028 9897                      			cbi PORTD, T5
+000029 c004                      			rjmp End_switch_2
                                  
                                  		case_51:
-000028 3016                      			cpi Razryad, 6
-000029 f411                      			brne End_switch_2
-00002a 98c0                      			cbi PORTB, T6
+00002a 3036                      			cpi Razryad, 6
+00002b f411                      			brne End_switch_2
+00002c 98c0                      			cbi PORTB, T6
                                  
-00002b 2711                      			clr Razryad		; Если номер разряда стал равен 6, обнуляем его
+00002d 2733                      			clr Razryad		; Если номер разряда стал равен 6, обнуляем его
                                  	
                                  	End_switch_2:
                                  			
-00002c 9518                      reti
+00002e 9518                      reti
                                  ; ==========================================================================================================
                                  TIMER2_OVF:			; При переполнении Таймера 2 происходит включение индикатора, соответствующего 
                                  					; переменной Razryad - 1 (0 - это Т1 и т.д.), выключаются индикаторы в прерывании
                                  					; по совпадению Таймера 2.
                                  
+00002f e1e6                      	ldi ZL, low(Numbers*2)	; В Z адрес цифр во флэш памяти в порядке возрастания
+000030 e0f1                      	ldi ZH, high(Numbers*2)	; каждый цикл обнуляется
+                                 
                                  	Switch:			; switch(Razryad)
                                  		case_0:
-00002d 3010                      			cpi Razryad, 0
-00002e f411                      			brne case_1
-00002f 9ac6                      			sbi PORTB, T1		; Включаем первый индикатор (Т1)
-000030 c013                      			rjmp End_switch
+000031 3030                      			cpi Razryad, 0
+000032 f429                      			brne case_1
+000033 9100 0067                 			lds temp, Hour_h_BCD
+000035 d04b                      			rcall Find_num_in_flash_and_set_to_PORTC
+000036 9ac6                      			sbi PORTB, T1		; Включаем первый индикатор (Т1)
+000037 c022                      			rjmp End_switch
                                  
                                  		case_1:
-000031 3011                      			cpi Razryad, 1
-000032 f411                      			brne case_2
-000033 9ac7                      			sbi PORTB, T2		; Включаем второй индикатор (Т2)
-000034 c00f                      			rjmp End_switch
+000038 3031                      			cpi Razryad, 1
+000039 f429                      			brne case_2
+00003a 9100 0066                 			lds temp, Hour_l_BCD
+00003c d044                      			rcall Find_num_in_flash_and_set_to_PORTC
+00003d 9ac7                      			sbi PORTB, T2		; Включаем второй индикатор (Т2)
+00003e c01b                      			rjmp End_switch
                                  
                                  		case_2:
-000035 3012                      			cpi Razryad, 2
-000036 f411                      			brne case_3
-000037 9a95                      			sbi PORTD, T3		; Включаем третий индикатор (Т3)
-000038 c00b                      			rjmp End_switch
+00003f 3032                      			cpi Razryad, 2
+000040 f429                      			brne case_3
+000041 9100 0064                 			lds temp, Min_h_BCD
+000043 d03d                      			rcall Find_num_in_flash_and_set_to_PORTC
+000044 9a95                      			sbi PORTD, T3		; Включаем третий индикатор (Т3)
+000045 c014                      			rjmp End_switch
                                  
                                  		case_3:
-000039 3013                      			cpi Razryad, 3
-00003a f411                      			brne case_4
-00003b 9a96                      			sbi PORTD, T4		; Включаем четвёртый индикатор (Т4)
-00003c c007                      			rjmp End_switch
+000046 3033                      			cpi Razryad, 3
+000047 f429                      			brne case_4
+000048 9100 0063                 			lds temp, Min_l_BCD
+00004a d036                      			rcall Find_num_in_flash_and_set_to_PORTC
+00004b 9a96                      			sbi PORTD, T4		; Включаем четвёртый индикатор (Т4)
+00004c c00d                      			rjmp End_switch
                                  
                                  		case_4:
-00003d 3014                      			cpi Razryad, 4
-00003e f411                      			brne case_5
-00003f 9a97                      			sbi PORTD, T5		; Включаем пятый индикатор (Т5)
-000040 c003                      			rjmp End_switch
+00004d 3034                      			cpi Razryad, 4
+00004e f429                      			brne case_5
+00004f 9100 0061                 			lds temp, Sec_h_BCD
+000051 d02f                      			rcall Find_num_in_flash_and_set_to_PORTC
+000052 9a97                      			sbi PORTD, T5		; Включаем пятый индикатор (Т5)
+000053 c006                      			rjmp End_switch
                                  
                                  		case_5:
-000041 3015                      			cpi Razryad, 5
-000042 f409                      			brne End_switch
-000043 9ac0                      			sbi PORTB, T6		; Включаем шестой индикатор (Т6)
+000054 3035                      			cpi Razryad, 5
+000055 f421                      			brne End_switch
+000056 9100 0060                 			lds temp, Sec_l_BCD
+000058 d028                      			rcall Find_num_in_flash_and_set_to_PORTC
+000059 9ac0                      			sbi PORTB, T6		; Включаем шестой индикатор (Т6)
                                  
                                  	End_switch:	
                                  		
-000044 9513                      		inc Razryad				; Переключили разряд,
-                                 
-000045 9518                      reti
+00005a 9533                      		inc Razryad				; Переключили разряд
+00005b 9518                      reti
                                  ; ==========================================================================================================
-                                 TIMER1_COMPA:
-000046 9523                      	inc eSec
-000047 302a                      	cpi eSec, 10
-000048 f4c9                      	brne Texit
-000049 2722                      	clr eSec
-00004a 9533                      	inc dSec
-00004b 3036                      	cpi dSec, 6
-00004c f4a9                      	brne Texit
-00004d 2733                      	clr dSec
-00004e 9543                      	inc eMin
-00004f 304a                      	cpi eMin, 10
-000050 f489                      	brne Texit
-000051 2744                      	clr eMin
-000052 9553                      	inc dMin
-000053 3056                      	cpi dMin, 6
-000054 f469                      	brne Texit
-000055 2755                      	clr dMin
-000056 9563                      	inc eHour
-000057 3064                      	cpi eHour, 4
-000058 f048                      	brlo Texit
-000059 3072                      	cpi dHour, 2
-00005a f419                      	brne mhh
-00005b 2766                      	clr eHour
-00005c 2777                      	clr dHour
-00005d c004                      	rjmp Texit
-                                 	mhh:
-00005e 306a                      	cpi eHour, 10
-00005f f411                      	brne Texit
-000060 2766                      	clr eHour
-000061 9573                      	inc dHour
-                                 	Texit:
-000062 9518                      reti
+                                 TIMER1_COMPA:	; Таймер настроен на прерывание раз в секунду. Потом этот обработчик надо перенести в прерывание по Int0
+                                 	; Инкрементируем секунды
+00005c 9563                      	inc Sec_counter				; Через секунду прибавили 1 к секундам
+00005d 336c                      	cpi Sec_counter, 60			; Проверка на переполнение секунд
+00005e f489                      	brne Sec_exit				; Нет переполнения, минуты и часы не трогаем
+                                 	; Инкрементируем минуты, если было переполнение секунд
+00005f 2766                      	clr Sec_counter				; Обнуляем счётчик секунд
+000060 9573                      	inc Min_counter				; Прибавили минуту
+000061 337c                      	cpi Min_counter, 60			; Проверка на переполнение минут
+000062 f449                      	brne Min_exit				; Нет переполнения, часы не трогаем
+                                 	; Инкрементируем часы, если было переполнение минут
+000063 2777                      	clr Min_counter				; Обнуляем счётчик минут
+000064 9583                      	inc Hour_counter			; Прибавили часы
+000065 3188                      	cpi Hour_counter, 24		; Проверка на переполнение часов
+000066 f409                      	brne Hour_exit				; Если нет переполнеия, не обнуляем
+000067 2788                      	clr Hour_counter			; ...иначе, обнуляем
+                                 
+                                 	Hour_exit:					; Преобразование HEX часов в BCD
+000068 2f08                      	mov temp, Hour_counter		; Значение часов в temp
+000069 d010                      	rcall bin2bcd8				; На выходе в temp1 десятки, в temp единицы часов
+00006a e6c6                      	ldi YL, low(Hour_l_BCD)		; Адрес единиц часов в индекс
+00006b d019                      	rcall Save_BCD_to_SRAM		; Сохраняем распакованные и упакованные BCD в ОЗУ
+                                 
+                                 	Min_exit:
+00006c 2f07                      	mov temp, Min_counter		; Значение минут в temp
+00006d d00c                      	rcall bin2bcd8				; На выходе в temp1 десятки, в temp единицы минут
+00006e e6c3                      	ldi YL, low(Min_l_BCD)		; Адрес единиц минут в индекс
+00006f d015                      	rcall Save_BCD_to_SRAM		; Сохраняем распакованные и упакованные BCD в ОЗУ
+                                 
+                                 	Sec_exit:
+000070 2f06                      	mov temp, Sec_counter		; Значение секунд в temp
+000071 d008                      	rcall bin2bcd8				; На выходе в temp1 десятки, в temp единицы минут
+000072 e6c0                      	ldi YL, low(Sec_l_BCD)		; Адрес единиц секунд в индекс
+000073 d011                      	rcall Save_BCD_to_SRAM		; Сохраняем распакованные и упакованные BCD в ОЗУ
+                                 
+000074 9518                      reti
                                  
                                  TIMER1_COMPB:
                                  
-000063 9518                      reti
+000075 9518                      reti
                                  
                                  TIMER1_OVF:
                                  
-000064 9518                      reti
+000076 9518                      reti
                                  
                                  TIMER0_OVF:
                                  
-000065 9518                      reti
+000077 9518                      reti
                                  
                                  ADC_READY:
                                  
-000066 9518                      reti
+000078 9518                      reti
                                  
                                  EE_READY:
                                  
-000067 9518                      reti
+000079 9518                      reti
                                  ; Процедуры ====================================================================================================================
                                  .include "procedures.inc"
                                  
@@ -1044,24 +1059,91 @@ D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main
                                   *   Author: MikhnovetsA
                                   */ 
                                  
+                                  ; Перед вызовом процедуры необходимо в temp поместить искомое число от 0 до 99 в HEX формате
+                                  ; На выходе будет в temp1 старший разряд, в temp младший. Оба в распакованном виде
+                                  bin2bcd8:	; Процедура преобразования HEX значения в распакованный BCD формат
+00007a 2711                      	clr temp1			; Старший BCD (десятки)
+                                  bBCD8_1:
+00007b 500a                      	subi temp, 10		; В temp значение часов. В цикле вычитаем 10, пока не вылезет заём. Тем самым считаем кол-во десятков
+00007c f010                      	brcs bBCD8_2		; Если стало меньше нуля, заканчиваем
+00007d 9513                      	inc temp1			; Если по прежнему больше нуля, прибавляем к temp1
+00007e cffc                      	rjmp bBCD8_1
+                                  bBCD8_2:
+00007f 5f06                      	subi temp, -10		; Компенсируем переход через ноль, младший BCD (единицы)
+000080 9508                       ret
+                                  ; Чтобы получить в temp упакованный BCD, нужно сделать swap temp1
+                                  ;														or temp, temp1. 
+                                  ; Всё
+                                 
+                                 Find_num_in_flash_and_set_to_PORTC:
+000081 0fe0                      	add ZL, temp
+000082 9104                      	lpm temp, Z
+000083 bb05                      	out PORTC, temp
+000084 9508                      ret
+                                 
+                                 Save_BCD_to_SRAM:
+000085 9309                      	st Y+, temp					; Сохраняем единицы секунд в ОЗУ
+000086 9319                      	st Y+, temp1				; Сохраняем десятки секунд в ОЗУ
+000087 9512                      	swap temp1					; Меняем местами тетрады, чтобы занять старшие биты в temp1
+000088 2b01                      	or temp, temp1				; Склеиваем тетрады в упакованный BCD для секунд
+000089 8308                      	st Y, temp					; Сохраняем в ОЗУ упакованные секунды
+00008a 9508                      
                                  .DSEG ; Область оперативной памяти ОЗУ =========================================================================================
-                                 	.org SRAM_START		; Начало оперативной памяти (за всеми регистрами ввода-вывода)
+                                 				.org SRAM_START		; Начало оперативной памяти (за всеми регистрами ввода-вывода)
+                                 	; Резервирование памяти для распакованных и упакованных значений времени
+000060                           	Sec_l_BCD:	.byte	1			; Единицы секунд (low BCD)
+000061                           	Sec_h_BCD:	.byte	1			; Десятки секунд (high BCD)
+000062                           	Sec_pac:	.byte	1			; Секунды в упауованном BCD формате
+000063                           	Min_l_BCD:	.byte	1			; Единицы минут (low BCD)
+000064                           	Min_h_BCD:	.byte	1			; Десятки минут	(high BCD)
+000065                           	Min_pac:	.byte	1			; Минуты в упакованном BCD формате
+000066                           	Hour_l_BCD:	.byte	1			; Единицы часов (low BCD)
+000067                           	Hour_h_BCD:	.byte	1			; Десятки часов (high BCD)
+000068                           	Hour_pac:	.byte	1			; Часы в упакованном BCD формате
                                  
                                  .CSEG ; Область флэш памяти ПЗУ ================================================================================================
                                  
                                  Numbers:
                                  ; Массив цифр для дешифратора (не по порядку из-за дурацкой разводки)
                                  ;	0	 1	  2	   3	4	 5	  6	   7	8	 9
-000068 0100
-000069 0504
-00006a 0908
-00006b 0d0c
-00006c 0302                      .db $00, $01, $04, $05, $08, $09, $0C, $0D, $02, $03
+00008b 0100
+00008c 0504
+00008d 0908
+00008e 0d0c
+00008f 0302                      .db $00, $01, $04, $05, $08, $09, $0C, $0D, $02, $03
                                  
                                  ; Начало программы
-                                 Reset:	
-                                 	.include "ini.inc"	; Инициализация стека, перифирии и т.д.
+                                 Reset:
+                                 	
+                                 	.include "flush.inc"; Очистка памяти от мусора
                                  
+                                  * flush.inc
+                                  *
+                                  *  Created: 28.04.2023 12:36:06
+                                  *   Author: MikhnovetsA
+                                  */ 
+                                 
+                                  RAM_Flush:							; Очистка памяти от мусора	
+000090 e6e0                      			LDI  ZL,Low(SRAM_START)		; Адрес начала ОЗУ в индекс 
+000091 e0f0                      			LDI  ZH,High(SRAM_START) 
+000092 2700                      			CLR  R16					; Очищаем R16 
+                                 	Flush:    
+000093 9301                      			ST   Z+,R16					; Сохраняем 0 в ячейку памяти 
+000094 30f4                      			CPI  ZH,High(RAMEND+1)		; Достигли конца оперативки? 
+000095 f7e9                      			BRNE  Flush					; Нет? Крутимся дальше! 
+                                   
+000096 36e0                      			CPI  ZL,Low(RAMEND+1)		; А младший байт достиг конца? 
+000097 f7d9                      			BRNE  Flush 
+                                   
+000098 27ee                      			CLR  ZL						; Очищаем индекс 
+000099 27ff                      			CLR  ZH
+                                 
+00009a e1ee                      			LDI  ZL, 30					; Адрес самого старшего регистра   
+00009b 27ff                      			CLR  ZH						; А тут у нас будет ноль 
+00009c 95ea                      			DEC  ZL						; Уменьшая адрес 
+00009d 83f0                      			ST  Z, ZH					; Записываем в регистр 0 
+                                 	.include "ini.inc"	; Инициализация стека, перифирии и т.д.
+00009e f7e9                      
                                   * ini.inc
                                   *
                                   *  Created: 21.03.2023 14:21:50
@@ -1069,131 +1151,89 @@ D:\Документы\Atmel Studio\7.0\IN-12 NIXIE CLOCK WOOD\IN-12 NIXIE CLOCK WOOD\main
                                   */ 
                                  
                                   ; Инициализация стэка
-00006d e004                       ldi temp, high(RAMEND)
-00006e bf0e                       out SPH, temp
-00006f e50f                       ldi temp, low(RAMEND)
-000070 bf0d                       out SPL, temp
+00009f e004                       ldi temp, high(RAMEND)
+0000a0 bf0e                       out SPH, temp
+0000a1 e50f                       ldi temp, low(RAMEND)
+0000a2 bf0d                       out SPL, temp
                                  
                                   ; Отключение компаратора
-000071 e800                       ldi temp, (1<<ACD)
-000072 b908                       out ACSR, temp
+0000a3 e800                       ldi temp, (1<<ACD)
+0000a4 b908                       out ACSR, temp
+                                 
+                                  ; Адреса в ОЗУ больше байта не испольщую, поэтому старшую регистровую пару Y навсегда приравниваю к нулю
+0000a5 27dd                       clr YH					; На всякий случай. Большие адреса в ОЗУ не использую
                                  
                                   ; Настройка портов ввода-вывода
-000073 ec01                       ldi temp, (1<<DDB7) | (1<<DDB6) | (1<<DDB0)	; T2, T1, T0 (единицы и десятки часов, единицы секунд соответственно)
-000074 bb07                       out DDRB, temp
+0000a6 ec01                       ldi temp, (1<<DDB7) | (1<<DDB6) | (1<<DDB0)	; T2, T1, T0 (единицы и десятки часов, единицы секунд соответственно)
+0000a7 bb07                       out DDRB, temp
                                  
-000075 ee03                       ldi temp, (1<<DDD7) | (1<<DDD6) | (1<<DDD5) | (1<<DDD1) | (1<<DDD0)	; T5, T4, T3 (Десятки секунд, единицы и десятки минут соответственно)
-000076 bb01                       out DDRD, temp															; SDA и SCL для инициализации DS1307, потом SDA будет меняться для чтения из DS1307
+0000a8 ee03                       ldi temp, (1<<DDD7) | (1<<DDD6) | (1<<DDD5) | (1<<DDD1) | (1<<DDD0)	; T5, T4, T3 (Десятки секунд, единицы и десятки минут соответственно)
+0000a9 bb01                       out DDRD, temp															; SDA и SCL для инициализации DS1307, потом SDA будет меняться для чтения из DS1307
                                  
-000077 e00f                       ldi temp, (1<<DDC3) | (1<<DDC2) | (1<<DDC1) | (1<<DDC0)	; A, D, B, C дешифратора (D -старший бит 4-хбитного значения)
-000078 bb04                       out DDRC, temp
+0000aa e00f                       ldi temp, (1<<DDC3) | (1<<DDC2) | (1<<DDC1) | (1<<DDC0)	; A, D, B, C дешифратора (D -старший бит 4-хбитного значения)
+0000ab bb04                       out DDRC, temp
                                  
                                   ; Настройка АЦП
                                  
                                   ; Настройка внешнего прерывания на INT0 от часов DS1307
-000079 e002                       ldi temp, (1<<ISC01)	; Прерывание по спаду
-00007a bf05                       out MCUCR, temp
-00007b e400                       ldi temp, (1<<INT0)	; на INT0
-00007c bf0b                       out GICR, temp
+0000ac e002                       ldi temp, (1<<ISC01)	; Прерывание по спаду
+0000ad bf05                       out MCUCR, temp
+0000ae e400                       ldi temp, (1<<INT0)	; на INT0
+0000af bf0b                       out GICR, temp
                                  
                                   ; Настройка Таймера0
                                  
                                   ; Настройка Таймера1
-00007d ef04                       ldi temp, high(62499)
-00007e bd0b                       out OCR1AH, temp
-00007f e203                       ldi temp, low(62499)
-000080 bd0a                       out OCR1AL, temp	; Запись в регистр сравнения для прерывания раз в секунду
+0000b0 e70a                       ldi temp, high(31249)
+0000b1 bd0b                       out OCR1AH, temp
+0000b2 e101                       ldi temp, low(31249)
+0000b3 bd0a                       out OCR1AL, temp	; Запись в регистр сравнения для прерывания раз в секунду
                                  
                                   ;ldi temp, (1<<OCIE1A)
                                   ;out TIMSK, temp	; В этот регистр писать в одном месте, иначе что-то сбросится
                                   
-000081 e00a                       ldi temp, (1<<CS11) | (1<<WGM12)	; CS12 must be
-000082 bd0e                       out TCCR1B, temp	; Предделитель 256 (частота на входе счётчика 62500), и сброс счётчика при совпадении
+0000b4 e00c                       ldi temp, (1<<CS12) | (1<<WGM12)	; CS12 must be, CS10 for fast
+0000b5 bd0e                       out TCCR1B, temp	; Предделитель 256 (частота на входе счётчика 62500), и сброс счётчика при совпадении
                                   
                                   ; Настройка Таймера2, он служит для динамического переключения индикаторов и регулировки их яркости
-000083 e004                       ldi temp, (1<<CS22); Предделитель таймера 64. Тогда частота переключения 6 ламп составит 81 Гц
-000084 bd05                       out TCCR2, temp
+0000b6 e004                       ldi temp, (1<<CS22); Предделитель таймера 64. Тогда частота переключения 6 ламп составит 81 Гц
+0000b7 bd05                       out TCCR2, temp
                                  
-000085 2700                       clr temp
-000086 bd04                       out TCNT2, temp	; Сброс счётного регистра
+0000b8 2700                       clr temp
+0000b9 bd04                       out TCNT2, temp	; Сброс счётного регистра
                                  
-000087 ef0f                       ldi temp, 255
-000088 bd03                       out OCR2, temp		; Установка регистра совпадения (максимальная яркость индикаторов)
+0000ba ef0f                       ldi temp, 255
+0000bb bd03                       out OCR2, temp		; Установка регистра совпадения (максимальная яркость индикаторов)
                                  
-000089 ed00                       ldi temp, (1<<OCIE2) | (1<<TOIE2) | (1<<OCIE1A)	; Разрешение прерываний по совпадению и по переполнению Таймера2, и по совпадению А Таймера 1
-00008a bf09                      	
-                                 	;sbi PORTC, 2
-                                 	;sbi PORTC, 0
+0000bc ed00                       ldi temp, (1<<OCIE2) | (1<<TOIE2) | (1<<OCIE1A)	; Разрешение прерываний по совпадению и по переполнению Таймера2, и по совпадению А Таймера 1
+0000bd bf09                      
+                                 	; Установка времени (временная)
+                                 	
+0000be e378                      	ldi Min_counter, 56
+0000bf 2f07                      	mov temp, Min_counter
+0000c0 dfb9                      	rcall bin2bcd8				; На выходе в temp1 десятки, в temp единицы минут
+0000c1 e6c3                      	ldi YL, low(Min_l_BCD)		; Адрес единиц минут в ОЗУ
+0000c2 9309                      	st Y+, temp					; Сохраняем единицы минут в ОЗУ
+0000c3 8318                      	st Y, temp1					; Сохраняем десятки минут в ОЗУ
+                                 
+0000c4 2711                      	clr temp1
+                                 	
+0000c5 e08d                      	ldi Hour_counter, 13
+0000c6 2f08                      	mov temp, Hour_counter		; Значение часов в temp
+0000c7 dfb2                      	rcall bin2bcd8				; На выходе в temp1 десятки, в temp единицы часов
+0000c8 e6c6                      	ldi YL, low(Hour_l_BCD)		; Адрес единиц часов в ОЗУ
+0000c9 9309                      	st Y+, temp					; Сохраняем единицы часов в ОЗУ
+0000ca 8318                      	st Y, temp1					; Сохраняем десятки часов в ОЗУ
+                                 
                                  
                                  	
-                                 	;lpm temp, Z+
-                                 	;out PORTC, temp
-                                 	/*
-                                 	ldi temp, 0;$14
-                                 	mov HOURS, temp
-                                 	ldi temp, 0;$58
-                                 	mov MINUTES, temp
-                                 	ldi temp, 0;$9c
-                                 	mov SECONDS, temp
-                                 	*/
+0000cb 9478                          sei						; Разрешаю глобальные прерывания
                                  
-00008b 2700                      	clr temp
+                                 	LOOP:					; Основной цикл программы
                                  
-                                 	;inc r1
-                                 	;inc r1
+                                 		
                                  	
-00008c 9478                          sei					; Разрешаю глобальные прерывания
-                                 
-                                 	LOOP:				; Основной цикл программы
-                                 
-00008d ede0                      	ldi ZL, low(Numbers*2)
-00008e e0f0                      	ldi ZH, high(Numbers*2)
-                                 	
-                                 		Switch_loop:
-00008f 3011                      				cpi Razryad, 1	; Если работает первый индикатор,
-000090 f419                      				brne Ind_2
-000091 0fe7                      				add ZL, dHour
-000092 9104                      				lpm temp, Z
-000093 bb05                      				out PORTC, temp	; устанавливаю необходимое значение на дешифратор
-                                 
-                                 			Ind_2:
-000094 3012                      				cpi Razryad, 2
-000095 f419                      				brne Ind_3
-000096 0fe6                      				add ZL, eHour
-000097 9104                      				lpm temp, Z
-000098 bb05                      				out PORTC, temp
-                                 
-                                 			Ind_3:
-000099 3013                      				cpi Razryad, 3
-00009a f419                      				brne Ind_4
-00009b 0fe5                      				add ZL, dMin
-00009c 9104                      				lpm temp, Z
-00009d bb05                      				out PORTC, temp
-                                 
-                                 			Ind_4:
-00009e 3014                      				cpi Razryad, 4
-00009f f419                      				brne Ind_5
-0000a0 0fe4                      				add ZL, eMin
-0000a1 9104                      				lpm temp, Z
-0000a2 bb05                      				out PORTC, temp
-                                 
-                                 			Ind_5:
-0000a3 3015                      				cpi Razryad, 5
-0000a4 f419                      				brne Ind_6
-0000a5 0fe3                      				add ZL, dSec
-0000a6 9104                      				lpm temp, Z
-0000a7 bb05                      				out PORTC, temp
-                                 
-                                 			Ind_6:
-0000a8 3016                      				cpi Razryad, 6
-0000a9 f419                      				brne End_switch_loop
-0000aa 0fe2                      				add ZL, eSec
-0000ab 9104                      				lpm temp, Z
-0000ac bb05                      				out PORTC, temp
-                                 
-                                 		End_switch_loop:
-                                 	
-0000ad cfdf                          rjmp LOOP
+0000cc cfff                          rjmp LOOP
                                  
 
 
@@ -1212,40 +1252,40 @@ counted separately from r26..r31 here.
 .dseg memory usage only counts static data declared with .byte
 
 "ATmega8" register use summary:
-x  :   0 y  :   0 z  :   6 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
+x  :   0 y  :   7 z  :   3 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16:  43 r17:  20 r18:   4 r19:   4 r20:   4 
-r21:   4 r22:   6 r23:   4 r24:   0 r25:   0 r26:   0 r27:   0 r28:   0 
-r29:   0 r30:   7 r31:   1 
-Registers used: 11 out of 35 (31.4%)
+r13:   0 r14:   0 r15:   0 r16:  53 r17:   8 r18:   0 r19:  15 r20:   0 
+r21:   0 r22:   4 r23:   6 r24:   6 r25:   0 r26:   0 r27:   0 r28:   5 
+r29:   1 r30:   7 r31:   6 
+Registers used: 12 out of 35 (34.3%)
 
 "ATmega8" instruction use summary:
-.lds  :   0 .sts  :   0 adc   :   0 add   :   6 adiw  :   0 and   :   0 
+.lds  :   0 .sts  :   0 adc   :   0 add   :   1 adiw  :   0 and   :   0 
 andi  :   0 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
-brcc  :   0 brcs  :   0 breq  :   0 brge  :   0 brhc  :   0 brhs  :   0 
-brid  :   0 brie  :   0 brlo  :   1 brlt  :   0 brmi  :   0 brne  :  24 
+brcc  :   0 brcs  :   1 breq  :   1 brge  :   0 brhc  :   0 brhs  :   0 
+brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 brne  :  18 
 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 brvs  :   0 
 bset  :   0 bst   :   0 cbi   :   6 cbr   :   0 clc   :   0 clh   :   0 
-cli   :   0 cln   :   0 clr   :  10 cls   :   0 clt   :   0 clv   :   0 
-clz   :   0 com   :   0 cp    :   0 cpc   :   0 cpi   :  25 cpse  :   0 
-dec   :   0 eor   :   0 fmul  :   0 fmuls :   0 fmulsu:   0 icall :   0 
-ijmp  :   0 in    :   0 inc   :   7 ld    :   0 ldd   :   0 ldi   :  16 
-lds   :   0 lpm   :  12 lsl   :   0 lsr   :   0 mov   :   0 movw  :   0 
-mul   :   0 muls  :   0 mulsu :   0 neg   :   0 nop   :   0 or    :   0 
-ori   :   0 out   :  21 pop   :   0 push  :   0 rcall :   0 ret   :   0 
+cli   :   0 cln   :   0 clr   :  12 cls   :   0 clt   :   0 clv   :   0 
+clz   :   0 com   :   0 cp    :   0 cpc   :   0 cpi   :  18 cpse  :   0 
+dec   :   1 eor   :   0 fmul  :   0 fmuls :   0 fmulsu:   0 icall :   0 
+ijmp  :   0 in    :   0 inc   :   5 ld    :   0 ldd   :   0 ldi   :  26 
+lds   :   6 lpm   :   2 lsl   :   0 lsr   :   0 mov   :   5 movw  :   0 
+mul   :   0 muls  :   0 mulsu :   0 neg   :   0 nop   :   0 or    :   1 
+ori   :   0 out   :  16 pop   :   0 push  :   0 rcall :  14 ret   :   3 
 reti  :  10 rjmp  :  21 rol   :   0 ror   :   0 sbc   :   0 sbci  :   0 
 sbi   :   6 sbic  :   0 sbis  :   0 sbiw  :   0 sbr   :   0 sbrc  :   0 
 sbrs  :   0 sec   :   0 seh   :   0 sei   :   1 sen   :   0 ser   :   0 
 ses   :   0 set   :   0 sev   :   0 sez   :   0 sleep :   0 spm   :   0 
-st    :   0 std   :   0 sts   :   0 sub   :   0 subi  :   0 swap  :   0 
+st    :   9 std   :   0 sts   :   0 sub   :   0 subi  :   2 swap  :   1 
 tst   :   0 wdr   :   0 
-Instructions used: 14 out of 110 (12.7%)
+Instructions used: 24 out of 110 (21.8%)
 
 "ATmega8" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x00015c    320     10    330    8192   4.0%
-[.dseg] 0x000060 0x000060      0      0      0    1024   0.0%
+[.cseg] 0x000000 0x00019a    382     10    392    8192   4.8%
+[.dseg] 0x000060 0x000069      0      9      9    1024   0.9%
 [.eseg] 0x000000 0x000000      0      0      0     512   0.0%
 
 Assembly complete, 0 errors, 0 warnings
